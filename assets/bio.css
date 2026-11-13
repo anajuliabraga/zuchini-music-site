@@ -1,0 +1,38 @@
+/* página no formato "link da bio" (Guiggow, Gale, Leto) */
+body{background:var(--preto)}
+.bio{max-width:480px;margin:0 auto;padding:max(20px,env(safe-area-inset-top)) max(var(--gut),env(safe-area-inset-left)) max(40px,env(safe-area-inset-bottom));position:relative;overflow-x:hidden}
+.bio::before{content:"";position:absolute;left:50%;top:-180px;width:520px;height:520px;margin-left:-260px;border-radius:50%;background:radial-gradient(circle,rgba(166,226,46,.22),transparent 68%);pointer-events:none;z-index:-1}
+.avatar{width:120px;height:120px;border-radius:50%;overflow:hidden;margin:0 auto 16px;border:2px solid var(--lime);box-shadow:0 0 0 6px rgba(166,226,46,.12)}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.bio h1{text-align:center;font-size:clamp(2rem,9vw,2.6rem);margin-bottom:6px}
+.bio h1 span{color:var(--lime)}
+.papeis{text-align:center;color:var(--cinza);font-size:.9rem;margin-bottom:8px}
+.sobre{text-align:center;color:var(--cinza);font-size:.95rem;margin:0 auto 22px;max-width:38ch}
+.mini{display:flex;justify-content:center;gap:0;margin-bottom:24px;border:1px solid var(--linha);border-radius:14px;overflow:hidden;background:var(--grafite)}
+.mini div{flex:1;padding:12px 8px;text-align:center;border-left:1px solid var(--linha)}
+.mini div:first-child{border-left:0}
+.mini b{display:block;font-family:Anton,sans-serif;font-weight:400;color:var(--lime);font-size:1.4rem;line-height:1.1}
+.mini span{font-size:.7rem;color:var(--cinza)}
+.links{display:grid;gap:10px;margin-bottom:34px;min-width:0}
+.lk{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;background:var(--grafite);border:1.5px solid var(--linha);border-radius:14px;padding:15px 18px;font-weight:700;transition:transform .15s,border-color .15s,background .15s;touch-action:manipulation;min-height:52px}
+.lk span{min-width:0}
+.lk i{flex-shrink:0;font-style:normal;color:var(--lime);font-size:1.2rem}
+.lk small{display:block;font-weight:400;color:var(--cinza);font-size:.78rem}
+.lk:hover{border-color:var(--lime);transform:translateY(-2px)}
+.lk.destaque{background:var(--lime);color:#0a0a0a;border-color:var(--lime)}
+.lk.destaque small,.lk.destaque i{color:#0a0a0a}
+.lk.destaque:hover{background:var(--amarelo);border-color:var(--amarelo)}
+.bio h2{font-size:1.5rem;margin:0 0 12px}
+.bio .bloco{margin-bottom:34px}
+.lanc{list-style:none;display:grid;gap:8px}
+.lanc li{display:flex;align-items:center;gap:14px;background:var(--grafite);border:1px solid var(--linha);border-radius:12px;padding:12px 14px}
+.lanc li>div{min-width:0}
+.lanc .ano{font-family:Anton,sans-serif;color:var(--lime);min-width:46px;flex-shrink:0;font-size:1rem;line-height:1.1}
+.lanc b{display:block;font-size:1rem}
+.lanc span{font-size:.8rem;color:var(--cinza)}
+.bio .chips{margin-top:0;gap:8px}
+.bio .chip{font-size:.88rem;padding:7px 14px;cursor:default}
+.bio .chip:hover{transform:none;box-shadow:none;background:var(--grafite);color:var(--branco)}
+.bio-rodape{text-align:center;font-size:.78rem;color:var(--cinza)}
+.bio-rodape a{color:var(--branco);text-decoration:none}
+@media (hover:none){.lk:hover{transform:none}}

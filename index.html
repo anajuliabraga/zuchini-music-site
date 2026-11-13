@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Zuchini Music — Da composição à master</title>
+<meta name="description" content="Zuchini Music: produtora musical em São Paulo. Da composição à master. (Protótipo de apresentação.)">
+<link rel="icon" href="assets/logo-zuchini.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+<div class="aviso">Protótipo de apresentação — telefone, e-mail, fotos e itens “a confirmar” são exemplos, não dados reais.</div>
+
+<header>
+  <div class="wrap">
+    <a class="marca" href="#topo"><img src="assets/logo-zuchini.jpg" alt="">ZUCHINI</a>
+    <button class="menu-btn" aria-label="Abrir menu" onclick="document.getElementById('nav').classList.toggle('aberto')">Menu</button>
+    <nav id="nav">
+      <ul onclick="document.getElementById('nav').classList.remove('aberto')">
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#como">Como funciona</a></li>
+        <li><a href="#arquivo">Nas redes</a></li>
+        <li><a href="#socios">Sócios</a></li>
+        <li><a href="#estudio">Estúdio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+<!-- 1. INÍCIO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Da composição<br>à <span>master.</span></h1>
+      <p>Produtora musical em São Paulo. A gente escreve, produz e finaliza a música — do primeiro verso ao arquivo pronto pra tocar.</p>
+      <div class="acoes">
+        <a class="btn" href="#contato">Quero produzir minha música</a>
+        <a class="btn ghost" href="#portfolio">Ouvir o que já fizemos</a>
+      </div>
+    </div>
+    <img class="logo" src="assets/vinil.png" alt="Disco de vinil com o logo da Zuchini">
+  </div>
+</section>
+
+<!-- 2. NÚMEROS -->
+<div class="nums">
+  <div class="wrap">
+    <div class="num"><b data-to="168.8" data-dec="1" data-pre="" data-suf=" mil">168,8 mil</b><span>ouvintes mensais no Spotify (dado público de 30/10/2026)</span></div>
+    <div class="num"><b data-to="13.2" data-dec="1" data-pre="+" data-suf=" mi">+13,2 mi</b><span>reproduções em “Coça” (Spotify e YouTube, 30/10 e 01/11/2026)</span></div>
+    <div class="num"><b class="longo" data-to="1700000000" data-dec="0" data-sep="1" data-dur="2500" data-pre="+" data-suf="">+1.700.000.000</b><span>de reproduções em créditos</span></div>
+  </div>
+</div>
+
+<!-- 3. PORTFÓLIO -->
+<section id="portfolio">
+  <div class="wrap">
+    <h2>Músicas que a gente <em>assina</em></h2>
+    <p class="lead">Algumas das faixas em que a Zuchini assina. Ouça sem sair do site.</p>
+    <div class="faixas">
+      <article class="faixa"><span class="pos">01</span><h3>Coça</h3><span class="art">Kew, Zuchini, Gringobeats808 · 2025 · GR6 Music</span><span class="credito">Composição: Guiggow, Leto, Léo Rocatto</span><div class="plays"><b>13.206.869</b> plays <small>(Spotify + YouTube)</small></div></article>
+      <article class="faixa"><span class="pos">02</span><h3>Filho da Noite</h3><span class="art">Matuê e MC Ryan SP · 2024</span><span class="credito">Composição (parte do MC Ryan SP) e produção do beat</span><div class="plays"><b>+93 mi</b> plays <small>(Spotify + YouTube)</small></div></article>
+      <article class="faixa"><span class="pos">03</span><h3>Hoje Tem Baile</h3><span class="art">MC Ryan SP · 2023</span><span class="credito">Composição, produção, mix e master</span><div class="plays"><b>+15,8 mi</b> plays <small>(Spotify + YouTube)</small></div></article>
+      <article class="faixa"><span class="pos">04</span><h3>Sempre na Simplicidade</h3><span class="art">MC Luuky, MC Ryan SP, DJ Victor, Boladin 211, MC Vine7 · 2024</span><span class="credito">Composição (parte do MC Ryan SP)</span><div class="plays"><b>246.074.409</b> plays <small>(Spotify + YouTube)</small></div></article>
+    </div>
+    <div class="player">
+      <iframe id="player-pl" src="https://open.spotify.com/embed/playlist/4VPPZmmBDZCIkVISKU0A8q?theme=0" allow="encrypted-media; clipboard-write; fullscreen" loading="lazy" title="Playlist BY ZUCHINI no Spotify"></iframe>
+    </div>
+    <p class="nota">Plays do Spotify e do YouTube; os números mudam todo dia. Créditos conforme exibidos nas plataformas.</p>
+
+    <h2 style="margin-top:56px">Passou por <em>aqui</em></h2>
+    <p class="lead">Artistas que já passaram pela Zuchini. Passe o mouse para ver as músicas.</p>
+    <div id="passou">
+    <div class="chips">
+      <button type="button" class="chip">MC Ryan SP</button><button type="button" class="chip">Matuê</button><button type="button" class="chip">Oruam</button><button type="button" class="chip">Mc Livinho</button><button type="button" class="chip">Filipe Ret</button><button type="button" class="chip">Claudia Leitte</button><button type="button" class="chip">Thiaguinho</button><button type="button" class="chip">Xande de Pilares</button><button type="button" class="chip">Kew</button><button type="button" class="chip">Jall</button><button type="button" class="chip">Nilo</button><button type="button" class="chip">IZA</button><button type="button" class="chip">Ludmilla</button><button type="button" class="chip">Mc IG</button><button type="button" class="chip">MC PH</button><button type="button" class="chip">Luan Pereira</button><button type="button" class="chip">Wesley Safadão</button><button type="button" class="chip">Raffa Moreira</button>
+    </div>
+    <div class="passou-lista" id="passou-lista" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. COMO FUNCIONA -->
+<section id="como">
+  <div class="wrap">
+    <h2>Como <em>funciona</em></h2>
+    <p class="lead">Do primeiro papo à música pronta.</p>
+    <ol class="passos">
+      <li><h3>Conversa</h3><p>Você conta a ideia, a referência e o objetivo da música.</p></li>
+      <li><h3>Produção + composição</h3><p>Beat, letra e melodia nascem juntos, no mesmo processo.</p></li>
+      <li><h3>Gravação</h3><p>Sessão de estúdio com captação profissional e direcionamento.</p></li>
+      <li><h3>Edição e mix</h3><p>Cada elemento no lugar, com o som que a música pede.</p></li>
+      <li><h3>Master</h3><p>Finalização e entrega pronta pra tocar nas plataformas.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 5. SERVIÇOS (prévia: lista a confirmar com a Zuchini) -->
+<section id="servicos">
+  <div class="wrap">
+    <h2>O que a gente <em>faz</em></h2>
+    <p class="lead">Tudo o que a Zuchini faz pela sua música. No orçamento, você escolhe o que precisa.</p>
+    <div class="servicos">
+      <div class="servico"><h3>Composição</h3><p>Letra e melodia.</p></div>
+      <div class="servico"><h3>Produção</h3><p>Beat e arranjo.</p></div>
+      <div class="servico"><h3>Gravação</h3><p>Estúdio com captação profissional.</p></div>
+      <div class="servico"><h3>Edição</h3><p>Ajuste e organização dos takes gravados.</p></div>
+      <div class="servico"><h3>Mix</h3><p>Cada elemento no lugar.</p></div>
+      <div class="servico"><h3>Master</h3><p>Acabamento pra tocar em qualquer plataforma.</p></div>
+      <div class="servico"><h3>Trilha sonora</h3><p>Trilhas e jingles para propaganda e projetos corporativos.</p></div>
+      <div class="servico"><h3>Distribuição</h3><p>Registro e entrega da música nas plataformas.</p></div>
+      <div class="servico mais"><h3>E mais</h3><p>Não achou o que procura? <a href="#contato">Conta no orçamento.</a></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. ARQUIVO Z -->
+<section id="arquivo">
+  <div class="wrap">
+    <h2>Zuchini nas <em>redes</em></h2>
+    <p class="lead">Vídeos do nosso Instagram. Dê o play aqui ou clique no título para ver o post.</p>
+    <div class="arquivo reels">
+      <div class="reel"><div class="tela"><iframe src="https://www.instagram.com/reel/DcrqrD_vFke/embed/" loading="lazy" allowfullscreen scrolling="no" title="Reel: recriação de Lonely"></iframe></div><a href="https://www.instagram.com/reel/DcrqrD_vFke/" target="_blank" rel="noopener"><b>Recriação de “Lonely”</b><span>Ver no Instagram</span></a></div>
+      <div class="reel"><div class="tela"><iframe src="https://www.instagram.com/reel/DcY4VLOvS6M/embed/" loading="lazy" allowfullscreen scrolling="no" title="Reel: 4 álbuns clássicos versão brasileira"></iframe></div><a href="https://www.instagram.com/reel/DcY4VLOvS6M/" target="_blank" rel="noopener"><b>4 álbuns clássicos, versão brasileira</b><span>Ver no Instagram</span></a></div>
+      <div class="reel"><div class="tela"><iframe src="https://www.instagram.com/reel/DcKFeDLPOjN/embed/" loading="lazy" allowfullscreen scrolling="no" title="Reel: recriação de Piece of Me"></iframe></div><a href="https://www.instagram.com/reel/DcKFeDLPOjN/" target="_blank" rel="noopener"><b>Recriação de “Piece of Me”</b><span>Ver no Instagram</span></a></div>
+    </div>
+    <p style="margin-top:20px"><a class="btn ghost" href="https://www.instagram.com/zuchinirec/" target="_blank" rel="noopener">Ver no Instagram @zuchinirec</a></p>
+  </div>
+</section>
+
+<!-- 7. SÓCIOS -->
+<section id="socios">
+  <div class="wrap">
+    <h2>Quem faz <em>acontecer</em></h2>
+    <p class="lead">Os três sócios da Zuchini. <span class="tag">papéis e fotos a confirmar</span></p>
+    <div class="socios">
+      <div class="socio"><div class="foto"><img src="assets/guiggow.jpg" alt="Guiggow"></div><h3>Guiggow</h3><p>Artista, compositor, produtor musical e engenheiro de áudio.</p><p><a href="https://www.instagram.com/guiggow/" target="_blank" rel="noopener">@guiggow</a></p></div>
+      <div class="socio"><div class="foto"><img src="assets/gale.jpg" alt="Gale" style="object-position:50% 30%"></div><h3>Gale</h3><p>Artista, compositor, produtor musical e engenheiro de áudio.</p><p><a href="https://www.instagram.com/original_gale/" target="_blank" rel="noopener">@original_gale</a></p></div>
+      <div class="socio"><div class="foto"><img src="assets/leto.jpg" alt="Leto" style="object-position:75% 32%"></div><h3>Leto</h3><p>Artista, compositor, produtor musical e engenheiro de áudio.</p><p><a href="https://www.instagram.com/leto_eu/" target="_blank" rel="noopener">@leto_eu</a></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. ESTÚDIO -->
+<section id="estudio">
+  <div class="wrap">
+    <h2>O <em>estúdio</em></h2>
+    <p class="lead">Av. Nova Cantareira, 981 — São Paulo/SP. <span class="tag">visitas e horário a confirmar</span></p>
+    <div class="estudio">
+      <div class="galeria">
+        <div>Foto ilustrativa<br>(cabine / sala de gravação)</div>
+        <div>Foto ilustrativa<br>(mesa de som)</div>
+        <div>Foto ilustrativa<br>(sala de produção)</div>
+      </div>
+      <div class="mapa">
+        <iframe title="Mapa do estúdio" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.+Nova+Cantareira,+981,+S%C3%A3o+Paulo&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CONTATO -->
+<section id="contato">
+  <div class="wrap">
+    <h2>Vamos <em>produzir</em></h2>
+    <p class="lead">Conta o que você quer fazer.</p>
+    <div class="contato">
+      <form id="form" novalidate>
+        <label>Seu nome<input name="nome" required autocomplete="name"></label>
+        <label>Instagram ou Spotify do artista<input name="perfil" placeholder="@seuperfil ou link"></label>
+        <fieldset class="opcoes">
+          <legend>O que você precisa <small>(pode marcar mais de um)</small></legend>
+          <label class="op tudo"><input type="checkbox" name="servico" value="Tudo, da composição à master" id="op-tudo"><span>Tudo, da composição à master</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Composição" class="op-item"><span>Composição</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Produção" class="op-item"><span>Produção</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Gravação" class="op-item"><span>Gravação</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Mix e master" class="op-item"><span>Mix e master</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Edição"><span>Edição</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Trilha sonora"><span>Trilha sonora</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Distribuição"><span>Distribuição</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Parceria ou imprensa"><span>Parceria ou imprensa</span></label>
+          <label class="op"><input type="checkbox" name="servico" value="Outro"><span>Outro</span></label>
+        </fieldset>
+        <label>Prazo desejado<input name="prazo" placeholder="Ex.: lançar em dezembro"></label>
+        <label>Conte a ideia<textarea name="msg"></textarea></label>
+        <button class="btn" type="submit">Enviar pedido</button>
+        <div class="ok" id="ok">Protótipo: o envio ainda não está ligado. No site publicado, o pedido chega organizado pra equipe.</div>
+      </form>
+      <div class="canais">
+        <a class="canal" href="https://wa.me/5511942753767" target="_blank" rel="noopener"><small>WhatsApp</small><b>+55 11 94275-3767</b></a>
+        <a class="canal" href="mailto:zuchinirec@gmail.com"><small>E-mail</small><b>zuchinirec@gmail.com</b></a>
+        <a class="canal" href="https://www.instagram.com/zuchinirec/" target="_blank" rel="noopener"><small>Instagram</small><b>@zuchinirec</b></a>
+        <a class="canal" href="https://open.spotify.com/intl-pt/artist/7Kydl65dvmuhcxPgG3WTKZ" target="_blank" rel="noopener"><small>Spotify</small><b>Zuchini</b></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Zuchini Music · Av. Nova Cantareira, 981 — São Paulo/SP</span>
+    <span class="redes-rodape"><a href="https://www.instagram.com/zuchinirec/" target="_blank" rel="noopener" aria-label="Instagram da Zuchini" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://open.spotify.com/intl-pt/artist/7Kydl65dvmuhcxPgG3WTKZ" target="_blank" rel="noopener" aria-label="Spotify da Zuchini" title="Spotify"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor"/><g fill="none" stroke-linecap="round" style="stroke:var(--preto)"><path d="M6.5 9.2c3.7-1.1 7.9-.8 11 1" stroke-width="1.9"/><path d="M7.3 12.4c3-.8 6.3-.5 8.8 1" stroke-width="1.6"/><path d="M8 15.3c2.4-.6 4.8-.3 6.9.9" stroke-width="1.4"/></g></svg></a><a href="https://www.deezer.com/br/artist/253746412" target="_blank" rel="noopener" aria-label="Deezer da Zuchini" title="Deezer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="18" y="3" width="4" height="3"/><rect x="18" y="7" width="4" height="3"/><rect x="18" y="11" width="4" height="3"/><rect x="18" y="15" width="4" height="3"/><rect x="13" y="7" width="4" height="3"/><rect x="13" y="11" width="4" height="3"/><rect x="13" y="15" width="4" height="3"/><rect x="8" y="11" width="4" height="3"/><rect x="8" y="15" width="4" height="3"/><rect x="3" y="15" width="4" height="3"/><rect x="3" y="19" width="19" height="2"/></svg></a><a href="https://music.apple.com/br/artist/zuchini/1729856460" target="_blank" rel="noopener" aria-label="Apple Music da Zuchini" title="Apple Music"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4.5" fill="currentColor"/><path d="M15.5 6.6v7.3a2.1 2.1 0 1 1-1.2-1.9V8.9l-4 .9v5.3a2.1 2.1 0 1 1-1.2-1.9V8.4z" style="fill:var(--preto)"/></svg></a></span>
+    <span>Powered by GsdSystem</span>
+  </div>
+</footer>
+
+<script>
+/* "Passou por aqui": faixas por artista; plays do Spotify onde já confirmados. */
+var CL='Composição, letra',PR='Produção',CLP='Composição, letra, produção';
+var PASSOU={
+ 'MC Ryan SP':[['Sempre na Simplicidade','111,0 mi',CL],['Filho da Noite','93 mi',CLP],['Hoje Tem Baile','9,9 mi','Composição, letra, produção, mix, master'],['Ensinamento do Pai','','Composição, letra, mix, master'],['Fivela da Lacoste','','Composição, letra, produção, mix, master'],['Ritmista 1.0','',CL],['Tchau Obrigado 2','',CL],['Amor Eu Tô no Estúdio','',CL],['Mágoa e Rancor','',CL],['Marketing','',CL],['Essa Daqui Vira Trend','',CL],['Tô no Topo (ao vivo)','',CL],['Poesia Acústica 14','',CL],['Bando','',CL],['Mídia','','Letra'],['Capricorniana','',CL],['Casal Celebridade','',CL],['Cena Gravada','',CL],['Fernando de Noronha 2','',CL],['Pra Roncar Tem que Desbicar','',CL],['Saudade','',CL],['40 Metros O SET','','Composição'],['Cada Um Com Seu Job','','Composição'],['E os D da Sua Vida','',CL],['Ela joga no 7','','Composição'],['Malokeragem 2','',CL],['Manda A Real','',CL],['Nova Tendência','',CL],['Sem Gin, Sem Ela 2','','Composição'],['Set Tatuapé Conceito 3','',CL],['Taças Pro Ar','',CL],['Tempo','',CL],['Turista','','Letra']],
+ 'Matuê':[['Filho da Noite','93 mi',CLP]],
+ 'Oruam':[['Essa Daqui Vira Trend','',CL]],
+ 'Mc Livinho':[['Bicho Solto','',CL],['Astronauta Astro','',CL],['Um Fio de Cabelo','',CL],['Peça Rara (Tapa Tapa)','','Composição'],['Elemento','',PR],['Pirata','','Master']],
+ 'Filipe Ret':[['Bando','',CL],['Mídia','','Letra']],
+ 'Claudia Leitte':[['Vixe (ao vivo)','','papel a confirmar']],
+ 'Thiaguinho':[['Vixe (ao vivo)','','papel a confirmar']],
+ 'Xande de Pilares':[['Tô no Topo (ao vivo)','',CL]],
+ 'Kew':[['Coça','10,0 mi',CLP],['GG Grandão','',CLP]],
+ 'Jall':[['Você','',CL],['Coisas da Idade','',CL],['Sem Caô','',CL],['Vida','',CL]],
+ 'Nilo':[['Te Vi Gostei','1,1 mi',PR],['Te Vi Gostei (speed)','',PR],['Me Amarro Nela (com Giana Mello)','','Produção, mix, master'],['Sonhei Com Você (com Giana Mello)','',PR],['Pussy (com MC Ryan SP)','',CL],['Moleque Ligeiro','',''],['Quem Te Faz','','']],
+ 'MC PH':[['Fivela da Lacoste','',''],['2024M','',''],['Cena Gravada','',''],['Sem Gin, Sem Ela 2','',''],['Taças Pro Ar','',''],['Tempo','','']],
+ 'Luan Pereira':[['Fivela da Lacoste','','']],
+ 'Wesley Safadão':[['2024M','','']],
+ 'Raffa Moreira':[['Nova Estética (com Guiggow e PMM)','',''],['Paralisia do Sono (com Guiggow)','',''],['Pause (com FamousKyo)','',''],['Pause (speed up)','',''],['Sou Raul','',''],['Whole Lotta Type Shi','',''],['Malokero','',''],['Slide','',''],['ESL','',''],['Afro Paty','',''],['Marcha No Que É','',''],['Lava-Rápido','',''],['Royal','',''],['Perfil #100 – Presidencial','','']],
+ 'IZA':[['Tão Bonito','','']],
+ 'Ludmilla':[['Saudade','','']],
+ 'Mc IG':[['Saudade (com Ludmilla)','',''],['Casal Celebridade','',''],['Fernando de Noronha 2','',''],['Pra Roncar Tem que Desbicar','',''],['Tchau Obrigado 2','',''],['Sem Gin, Sem Ela 2','',''],['Cada Um Com Seu Job','',''],['2024M','','']]
+};
+(function(){
+  var box=document.getElementById('passou'),lista=document.getElementById('passou-lista'),chips=box.querySelectorAll('.chip');
+  function abrir(chip){
+    var nome=chip.textContent,itens=PASSOU[nome]||[];
+    chips.forEach(function(c){c.classList.toggle('ativo',c===chip)});
+    var LIM=8;
+    var h='<h3></h3><p class="sub">Músicas que passaram pela Zuchini</p><ul>';
+    itens.forEach(function(){h+='<li><span></span></li>'});
+    lista.innerHTML=h+'</ul>';
+    lista.querySelector('h3').textContent=nome;
+    var lis=lista.querySelectorAll('li');
+    lis.forEach(function(li,i){
+      li.children[0].textContent=itens[i][0];
+      if(i>=LIM)li.hidden=true;
+    });
+    if(itens.length>LIM){
+      var b=document.createElement('button');
+      b.type='button';b.className='ver-mais';b.textContent='Ver mais ('+(itens.length-LIM)+')';
+      b.addEventListener('click',function(){
+        var abertas=b.dataset.aberto==='1';
+        lis.forEach(function(li,i){if(i>=LIM)li.hidden=abertas});
+        b.dataset.aberto=abertas?'0':'1';
+        b.textContent=abertas?'Ver mais ('+(itens.length-LIM)+')':'Ver menos';
+      });
+      lista.appendChild(b);
+    }
+    lista.classList.add('aberto');
+  }
+  function fechar(){lista.classList.remove('aberto');chips.forEach(function(c){c.classList.remove('ativo')})}
+  chips.forEach(function(c){
+    c.addEventListener('mouseenter',function(){abrir(c)});
+    c.addEventListener('focus',function(){abrir(c)});
+    c.addEventListener('click',function(){abrir(c)});
+  });
+  box.addEventListener('mouseleave',fechar);
+})();
+/* cursor: bolinha da Zuchini segue o mouse; some sobre campos, mapa e players embutidos */
+(function(){
+  if(!window.matchMedia||!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  var el=document.createElement('div');el.className='bolinha';document.body.appendChild(el);
+  document.documentElement.classList.add('bola');
+  var x=-100,y=-100,cx=-100,cy=-100,reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function loop(){cx+=(x-cx)*(reduz?1:.28);cy+=(y-cy)*(reduz?1:.28);el.style.transform='translate('+cx+'px,'+cy+'px)';requestAnimationFrame(loop)}
+  requestAnimationFrame(loop);
+  document.addEventListener('mousemove',function(e){x=e.clientX;y=e.clientY;el.classList.add('ativa')});
+  document.addEventListener('mouseleave',function(){el.classList.remove('ativa')});
+  document.addEventListener('mouseover',function(e){
+    var t=e.target;
+    if(t.closest&&t.closest('input,textarea,select,.tela,.player,.mapa'))el.classList.remove('ativa');
+    else el.classList.add('ativa');
+    el.classList.toggle('grande',!!(t.closest&&t.closest('a,button,.chip,.faixa,.canal,.reel')));
+  });
+})();
+/* formulário: "Tudo" marca os quatro serviços; desmarcar um deles desmarca "Tudo" */
+(function(){
+  var tudo=document.getElementById('op-tudo'),itens=document.querySelectorAll('.op-item');
+  if(!tudo)return;
+  tudo.addEventListener('change',function(){itens.forEach(function(i){i.checked=tudo.checked})});
+  itens.forEach(function(i){i.addEventListener('change',function(){
+    tudo.checked=Array.prototype.every.call(itens,function(x){return x.checked});
+  })});
+})();
+/* contador dos números: roda toda vez que a seção volta à tela */
+(function(){
+  var els=document.querySelectorAll('.num b[data-to]');
+  if(!els.length)return;
+  var reduz=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function fmt(el,v){
+    var dec=+el.dataset.dec||0;
+    el.textContent=el.dataset.pre+(el.dataset.sep?Math.round(v).toLocaleString('pt-BR'):v.toFixed(dec).replace('.',','))+el.dataset.suf;
+  }
+  function rodar(el){
+    var alvo=parseFloat(el.dataset.to),dur=+el.dataset.dur||1600,ini=null;
+    cancelAnimationFrame(el._raf);
+    function passo(t){
+      if(ini===null)ini=t;
+      var p=Math.min((t-ini)/dur,1),e=1-Math.pow(1-p,3);
+      fmt(el,alvo*e);
+      if(p<1)el._raf=requestAnimationFrame(passo);
+    }
+    fmt(el,0);
+    el._raf=requestAnimationFrame(passo);
+  }
+  function parar(el){cancelAnimationFrame(el._raf);fmt(el,parseFloat(el.dataset.to))}
+  if(reduz||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      var b=e.target.querySelector('b[data-to]');
+      if(e.isIntersecting)rodar(b);else parar(b);
+    });
+  },{threshold:.4});
+  document.querySelectorAll('.num').forEach(function(n){io.observe(n)});
+})();
+document.getElementById('form').addEventListener('submit',function(e){
+  e.preventDefault();
+  document.getElementById('ok').style.display='block';
+});
+</script>
+</body>
+</html>
