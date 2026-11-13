@@ -2,6 +2,8 @@
 
 Site institucional da Zuchini Music e páginas individuais (formato "link da bio") dos três sócios — Guiggow, Gale e Leto.
 
+![Prévia do site da Zuchini Music](assets/preview.png)
+
 ## Estrutura
 
 ```
