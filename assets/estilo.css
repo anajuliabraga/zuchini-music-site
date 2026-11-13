@@ -38,7 +38,7 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;heigh
 .hero{padding:56px 0 72px;border-top:0;position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;right:-140px;top:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(166,226,46,.28),transparent 68%);pointer-events:none}
 .hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center;position:relative}
-.hero h1{font-size:clamp(3rem,10vw,6.6rem);margin-bottom:1rem}
+.hero h1{font-size:clamp(3rem,10vw,6.6rem);line-height:1.15;margin-bottom:1rem}
 .hero h1 span{color:var(--lime)}
 .hero p{color:var(--cinza);font-size:1.1rem;max-width:44ch;margin-bottom:1.8rem}
 .hero .acoes{display:flex;gap:12px;flex-wrap:wrap}
